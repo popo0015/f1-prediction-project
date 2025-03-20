@@ -1,0 +1,42 @@
+# **Node Modules & Angular Build Files**
+node_modules/
+dist/
+out-tsc/
+.angular/
+
+# **Environment Files (Secrets)**
+.env
+*.env
+
+# **Logs & Debug Files**
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json  # Optional, ignore if using Yarn instead of NPM
+
+# **Python Virtual Environment & Dependencies**
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# **Jupyter Notebook & Data Files**
+*.ipynb_checkpoints
+data/*.csv
+data/*.json
+data/*.db
+data/*.sqlite
+
+# **Compiled & Cache Files**
+.DS_Store
+Thumbs.db
+
+# **IDE/Editor-Specific Files**
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# **Render Deployment Files (if applicable)**
+render.yaml
